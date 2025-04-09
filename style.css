@@ -170,7 +170,7 @@ Final Code with Button at Top Right
   transform: scale(1.05);
 }        
         
-                 /*MERCH */
+                 /*Store */
                  
 @keyframes slideIn {
   0% 
@@ -180,12 +180,11 @@ Final Code with Button at Top Right
   100% {
     opacity: 1;
     transform: translateX(0);
-  } 
-}
+  } }
 
 
 
-#Merch, h2{
+#Store, h2{
   color: #d35400;;
   font-size: 26px;
   text-transform: uppercase;
@@ -279,3 +278,72 @@ h2 {
 
 }
 
+                  /*CONNECT*/
+
+#connect {
+  text-align: center; /* Center the section */
+  padding: 30px;
+  background-color: #f4f4f4; /* Light background color */
+}
+
+#connect h2 { text-align: left;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+#connect p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+#connect a {
+  font-size: 1.5em; /* Icon size */
+  color: inherit; /* inherits the Default icon color */
+  text-decoration: none; /* Remove underlines */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#connect a:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */}
+
+#connect i {
+  margin-right: 10px; /* Space between icon and text */ }
+
+
+             /*SIGN UP */
+
+             .signup-form input[type="email"],
+             .signup-form select {
+               width: 80%;
+               max-width: 400px;
+               padding: 12px;
+               margin: 15px 0;
+               border-radius: 10px;
+               border: 2px solid #FFA500;
+               font-size: 16px;
+             }
+             
+             .signup-form .checkbox-label {
+               display: inline-block;
+               margin: 10px 0;
+               color: #1b3d1d;
+               font-size: 14px;
+             }
+             
+             .signup-form .submit-btn {
+               background: linear-gradient(135deg, #FFA500, #ff9900);
+               color: black;
+               padding: 12px 25px;
+               border: none;
+               border-radius: 10px;
+               font-weight: bold;
+               cursor: pointer;
+               transition: all 0.3s ease;
+             }
+             
+             .signup-form .submit-btn:hover {
+               background: linear-gradient(135deg, #ff9900, #FFA500);
+               transform: scale(1.05);
+             }
+             
+             
