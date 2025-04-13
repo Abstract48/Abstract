@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html
+   lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SirGid | Official Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+ 
+<img id="logo-img" src="https://i.ibb.co/PsB6hq4P/1743633619792.jpg" alt="Logo" border="0">
+ 
+<header style="text-align:center; padding:0px">
+    <h2 style="font-size: 20px; color:#d35400;">
+      SirGid- Music & Web Dev — Bars. Rhythm. Builds.
+    </h2>
+  </header>
+
+      <!-- DROPDOWN BOX-->
+  <div class="dropdown">
+    <button class="dropbtn" 
+onclick="menu.classList.toggle('show')"><b>&#9776;</b></button>
+        <div class="dropdown-content" id="menu">
+            <a href="#home">Home</a>
+            <a href="#tickets">Tickets</a>
+            <a href="#catalogue">Catalogue</a>
+            <a href="#connect">Connect</a>
+        </div>
+    </div>
+    
+
+     <!-- NAVIGATION -->
+<div class= "nav-btn-container" style="padding: 15px; font-size:15px">
+    
+ <a href="#home" class="nav-btn">Home</a>
+ <a href="#tickets"class="nav-btn">Tickets</a>
+ <a href="#catalogue" class="nav-btn">Catalogue</a>
+ <a href="#connect" class="nav-btn">Connect</a>  
+</div>   
+  
+          <!-- SECTIONS -->
+  
+    
+
+       <section id="home">
+
+   <p class="bio-p1">
+    <b>Jonah Ojonugwa Gideon</b>, aka <b>SirGid</b>, is a lyrical powerhouse and cultural alchemist. From freestyling in JSS1 to becoming Beat Rapper champ in Power Group of Schools, his journey is carved in hustle and harmony.
+  </p>
+
+  <p class="bio-p2">
+    But SirGid ain’t just a mic slayer — he's a full-stack visionary. A law student with logic, a forex trader with foresight, and a <b>web developer crafting high-impact digital experiences</b>. Whether it’s a music portfolio, brand site, or e-commerce store, he builds with purpose and aesthetic finesse.
+  </p>
+
+  <p class="bio-p3">
+    He’s the bridge between sound and software, bars and brands. Whether you're here for the beats or the builds, you’re in the right place. <b>Looking for a dope website?</b> Hit up the <a href="#connect"><b>Connect</b></a> section and let's build magic.
+  </p>
+
+  <p class="bio-p4">
+    This portfolio? It’s not a flex — it’s a blueprint. For the future of Naija sound, digital artistry, and the creatives that do it all.
+  </p>
+  
+</section>
+
+
+        <section id="tickets">
+        
+<h1 class="main-heading">Tour Dates</h1>
+<ul>
+  <li>
+    <h3>📍Impeccable Arena, 25th April Abuja</h3>
+    <button class="tickets-button">Buy Tickets
+    </button>
+  </li>
+
+  <li>
+    <h3>📍1st Impression, 2nd May Abuja</h3>
+    <button class="tickets-button">Buy Tickets
+    </button>
+   </li>
+
+  <li>
+    <h3>📍The Xclassic Arena, 19th May Asaba</h3>
+    <button class="tickets-button">Buy Tickets
+    </button>
+  </li>
+
+  <li>
+    <h3>📍Afro Raves, 15th August Lagos</h3>
+    <button class="tickets-button">Buy Tickets
+    </button>
+  </li>
+
+  <li>
+    <h3 style="font-size: 15px;">Click 
+    <a href="#">HERE</a> for more tour dates 
+    and information.</h3>
+  </li>
+</ul>
+        </section>
+
+
+        
+
+         <section id="catalogue">
+         
+ <h1 class="catalogue-title">Catalogue</h1>
+
+<div class="catalogue-container">
+
+    <!-- Music Section -->
+    <section class="catalogue-section">
+        <h2>🎵 Music</h2>
+        <div class="grid">
+            <div class="item"><img src="music1.jpg" alt="Album 1"><p>Album 1</p></div>
+            <div class="item"><img src="music2.jpg" alt="Album 2"><p>Album 2</p></div>
+            <div class="item"><img src="music3.jpg" alt="Album 3"><p>Album 3</p></div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="catalogue-section">
+        <h2>📹 Videos</h2>
+        <div class="grid">
+            <div class="item"><img src="video1.jpg" alt="Video 1"><p>Video 1</p></div>
+            <div class="item"><img src="video2.jpg" alt="Video 2"><p>Video 2</p></div>
+            <div class="item"><img src="video3.jpg" alt="Video 3"><p>Video 3</p></div>
+        </div>
+    </section>
+
+    <!-- Pictures Section -->
+    <section class="catalogue-section">
+        <h2>📸 Pictures</h2>
+        <div class="grid">
+            <div class="item"><img src="pic1.jpg" alt="Picture 1"><p>Picture 1</p></div>
+            <div class="item"><img src="pic2.jpg" alt="Picture 2"><p>Picture 2</p></div>
+            <div class="item"><img src="pic3.jpg" alt="Picture 3"><p>Picture 3</p></div>
+        </div>
+    </section>
+
+</div>      
+             </section>
+             
+             
+               <!-- CONNECT SECTION -->
+
+             <section id="connect">
+             
+  <h2>Connect with SirGid</h2>
+  <p>Wanna make music? Need a fire website? Let’s cook something legendary.</p>
+
+  <form action="https://formspree.io/f/xjkyloaa" method="POST">
+  
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+    <input type="hidden" name="_captcha" value="false">
+    
+    <label for="purpose">Reason for Reaching Out:</label>
+    <select id="purpose" name="purpose" required>
+      <option value="" disabled selected>Select one</option>
+      <option value="music">Music Collaboration</option>
+      <option value="webdev">Website Project</option>
+      <option value="both">Both (Music + Web Dev)</option>
+    </select>
+
+    <label for="message">Your Message:</label>
+    
+    <textarea id="message" name="message" rows="5" placeholder="Drop the details here..." required></textarea>
+
+    <button type="submit">Send It</button>
+  </form>
+</section>
+            <!-- SIGN UP -->
+
+         <section id="signup"
+      
+      
+       style="padding: 40px; text-align: center;">
+
+
+        <h2 style="color: #d35400;">Sign Up for Exclusive Updates</h2>
+        <p>Be the first to know about new drops, tickets & everything SirGid.</p>
+        
+<form class="signup-form">
+  
+   <input type="email" name="email"
+   placeholder="Enter your email" required><br>
+      
+   <select name="country" required>
+   <option value="">Choose Country</option>
+   <option value="Nigeria">Nigeria</option>
+   <option value="South Africa">South Africa
+   </option>
+   <option value="USA">USA</option>
+   <option value="UK">UK</option>
+   <option value="Ghana">Ghana</option>
+            <!-- Add more as needed -->
+            
+          </select><br>
+      
+<label class="checkbox-label">
+ 
+   <input type="checkbox" required>
+    I agree to receive email updates from SirGid
+          </label><br>
+      
+<button type="submit"    
+      class="submit-btn">Subscribe</button>
+        </form>
+        
+      </section>
+    
+
+
+    <script src="script.js"></script>
+    
+  </body>
+    
+</html>
