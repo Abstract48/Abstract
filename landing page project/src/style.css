@@ -38,9 +38,9 @@ html {
 
 .hero-content {
   max-width: 600px;
-  background: rgba(0,0,0,0.4);
+  background: rgba(14, 6, 6, 0.4);
   padding:20px;
-  border-radius:10px;
+  border-radius:15px;
 }
 
 .cta-button {
