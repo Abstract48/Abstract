@@ -12,15 +12,17 @@ html {
 
 
 
-#logo-img {
-  width: 100%;
-  height: auto;
-  max-height: 150px; /* You can try 120px, 180px, etc */
-  object-fit: contain;
-  display: block;
-  margin: 0 auto;
-  padding: 10px 0;
-  background-color: #1b0808;
+
+.logo {
+  display: flex; /* Enables flexbox layout */
+  flex-wrap: wrap; /* Allows images to wrap to the next line if needed */
+}
+
+.logo img {
+  width: 25%; /* Each image takes up half the container's width */
+  height: auto; /* Maintains aspect ratio */
+  padding: 0px; /* Adds some space between images */
+  box-sizing: border-box; /* Important: Includes padding in width calculations */
 }
 
 
